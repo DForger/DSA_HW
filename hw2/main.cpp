@@ -11,7 +11,6 @@
 #include <fcntl.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include "data_io.h"
 #include "interaction.h"
 #include "retrieval_method.h"
 
@@ -87,7 +86,7 @@ const size_t k_totalLineNum = 149639105;
 //    return 0;
 
 //}
-*/
+
 
 int loadFile(const string &filename,
              std::vector<Interaction> &vecInteractions,
@@ -135,7 +134,7 @@ int loadFile(const string &filename,
     std::cout<<"loading compeleted, used "<< t2-t1 << "sec \n";
     return 0;
 }
-
+*/
 
 int readFile(const string &filename,
                  std::vector<Interaction> &vecInteractions,
